@@ -1,0 +1,1 @@
+create view view_contacto as select * from contacto

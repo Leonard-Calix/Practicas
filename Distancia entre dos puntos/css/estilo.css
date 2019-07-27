@@ -1,0 +1,10 @@
+.fondo{
+	background-image: url("../img/light-grey-terrazzo.png");
+	background-attachment: fixed;	
+}
+
+.fondof{
+    background-color: white;
+    padding:50px;
+    border-bottom: 5px;
+}

@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Jekyll v3.8.5">
+	<title>Login</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+	</style>
+
+</head>
+<body class="cuerpo">
+	<!-- Inicio de codificacion-->
+
+	<div class="form-signin">
+		<div class="text-center mb-4">
+			<img class="mb-4" src="bootstrap-solid.svg" alt="" width="72" height="72">
+			<h1 class="h3 mb-3 font-weight-normal">Iniciar sesion</h1><br>
+		</div>
+
+		<div class="form-label-group">
+			<input type="email" id="inputUsuario" class="form-control" placeholder="Usuario" required autofocus>
+			<label for="inputEmail">Usuario</label>
+		</div>
+
+		<div class="form-label-group">
+			<input type="password" id="inputContrasenia" class="form-control" placeholder="Contraseña" required>
+			<label for="inputPassword">Contraseña</label>
+		</div>
+		<div class="alert alert-danger" id="error" role="alert">
+			Campos Obligatorios
+		</div>
+		<button class="btn btn-lg btn-primary btn-block" type="button" id="btn-login">Iniciar</button>
+		<br>
+		<p>Si no tienes cuenta <a href="https://caniuse.com/#feat=css-placeholder-shown">Registrarse</a></p>
+		<p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+	</div>
+
+	<!-- Fin de codificacion-->
+
+	<!--- JQuery-->	
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<!---bootstrap JQuery-->
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>	
+	<!--- Contrsolador JS-->	
+	<script type="text/javascript" src="../js/Controlador.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.contenedor {
+  max-width:1000px;
+  margin:0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+body{
+  background-color: orange;
+}
+
+h1{
+  text-align: center;
+}
+a{
+  color: white;
+  text-align: center;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+  text-align:
+
+}
+div.contenido {
+  width: 100%;
+  margin: 40px auto 0 auto;
+  font-size: 24px;
+}
+div.existentes {
+  padding: 20px;
+  background-color: #e1e1e1;
+}
+div.existentes  table {
+  width: 100%;
+  font-family: geneva;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+div.existentes  table thead {
+  background-color: #ff9800;
+}
+
+.editar{
+  background-color: blue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.borrar{
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+}
