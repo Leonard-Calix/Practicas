@@ -116,77 +116,114 @@ header {
     text-align: center; }
     .main .clientes .cliente a {
       display: block; }
+
 .main .precios {
   background: url("../img/bg.jpg"), #727171;
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
-  padding: 70px 0; }
+  padding: 70px 0; 
+}
+ 
   .main .precios .titulo {
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
     font-weight: 300;
     font-size: 32px;
     color: #fff;
-    margin-bottom: 70px; }
+    margin-bottom: 70px; 
+  }
+
   .main .precios .plan {
     background: #fff;
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
     padding: 50px 0;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
-    -box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    -box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); 
+  }
     .main .precios .plan .nombre {
       font-size: 32px;
       font-weight: 300;
       line-height: 32px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px; 
+    }
+
     .main .precios .plan .precio {
       font-weight: 300;
       font-size: 48px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px; 
+    }
+
     .main .precios .plan .caracteristicas {
       list-style: none;
       padding: 0 20px;
-      margin-bottom: 50px; }
+      margin-bottom: 50px; 
+    }
+
       .main .precios .plan .caracteristicas li {
         font-size: 18px;
         padding: 15px 0;
-        border-bottom: 1px solid #dedede; }
+        border-bottom: 1px solid #dedede; 
+
+      }
+
     .main .precios .plan .btn {
       width: 70%;
       font-size: 16px;
       padding: 15px 0;
       text-align: center;
       display: inline-block;
-      border-radius: 100px; }
+      border-radius: 100px; 
+    }
+
     .main .precios .plan.verde .nombre,
     .main .precios .plan.verde .precio {
-      color: #86b773; }
+      color: #86b773; 
+    }
+
     .main .precios .plan.verde .btn {
       color: #86b773;
-      border: 2px solid #86b773; }
-      .main .precios .plan.verde .btn:hover {
+      border: 2px solid #86b773; 
+    }
+
+    .main .precios .plan.verde .btn:hover {
         background: #86b773;
-        color: #fff; }
+        color: #fff; 
+    }
+
     .main .precios .plan.active {
       background: #4c8dce;
-      color: #fff; }
-      .main .precios .plan.active .btn {
+      color: #fff; 
+    }
+    
+    .main .precios .plan.active .btn {
         color: #fff;
-        border: 2px solid #fff; }
-        .main .precios .plan.active .btn:hover {
+        border: 2px solid #fff;
+   }
+   
+   .main .precios .plan.active .btn:hover {
           background: #fff;
-          color: #4c8dce; }
+          color: #4c8dce; 
+    }
     .main .precios .plan.naranja .nombre,
     .main .precios .plan.naranja .precio {
-      color: #ddb146; }
+      color: #ddb146; 
+    }
+
     .main .precios .plan.naranja .btn {
       color: #ddb146;
-      border: 2px solid #ddb146; }
-      .main .precios .plan.naranja .btn:hover {
+      border: 2px solid #ddb146;
+    }
+     
+   .main .precios .plan.naranja .btn:hover {
         background: #ddb146;
-        color: #fff; }
+        color: #fff; 
+    }
+
+
+
+
 .main .reviews {
   padding: 70px; }
   .main .reviews .titulo {
