@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.icono{
+	text-align: center;
+	color: red;
+	font-size: 60px;
+}
+
+.marco{
+	padding: 20px;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: 4px;
+}
+
+.marco{
+	padding: 20px;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: 4px;
+}
