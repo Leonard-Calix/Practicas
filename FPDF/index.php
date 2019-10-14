@@ -1,6 +1,6 @@
 <?php
 require('fpdf/fpdf.php');
-//require('model.php');
+require('model.php');
 $nw = new Northwind();
 $id = 42;
 class pdf extends FPDF

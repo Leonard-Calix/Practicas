@@ -25,12 +25,6 @@ fwrite($archivo, json_encode($archivos));
 
 echo "<img src='$src'>";
 
-echo $_GET["accion"];
-
-echo $_GET["usuario"];
-
-echo $_GET["carpeta"];
-
 
 
 
